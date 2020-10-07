@@ -1,0 +1,428 @@
+{
+    "DocType: Account": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Account Subtype": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Account Type": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Accounting Journal": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Accounting Period": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Accounts Settings": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Allowed To Transact With": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Asset Category": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Bank": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Bank Account": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Bank Guarantee": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Bank Reconciliation": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Bank Reconciliation Detail": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Bank Statement Settings": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Bank Statement Settings Item": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Bank Statement Transaction Entry": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Bank Statement Transaction Invoice Item": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Bank Statement Transaction Payment Item": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Bank Statement Transaction Settings Item": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Bank Transaction": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Bank Transaction Mapping": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Bank Transaction Payments": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Budget": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Budget Account": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Buying Settings": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: C-Form": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: C-Form Invoice Detail": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Cash Flow Mapper": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Cash Flow Mapping": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Cash Flow Mapping Accounts": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Cash Flow Mapping Template": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Cash Flow Mapping Template Details": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Cashier Closing": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Cashier Closing Payments": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Cheque Print Template": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Closed Document": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Cost Center": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Customer": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Customer Group": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Email Digest": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Exchange Rate Revaluation": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Exchange Rate Revaluation Account": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Expense Claim Type": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Finance Book": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Fiscal Year": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Fiscal Year Company": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: GL Entry": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: GST Account": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Item Price": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Item Tax Template": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Item Tax Template Detail": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Journal Entry": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Journal Entry Account": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Loyalty Point Entry": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Loyalty Point Entry Redemption": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Loyalty Program": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Loyalty Program Collection": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Mode of Payment": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Mode of Payment Account": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Monthly Distribution": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Monthly Distribution Percentage": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Opening Invoice Creation Tool": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Opening Invoice Creation Tool Item": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: POS Customer Group": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: POS Item Group": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: POS Profile": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: POS Profile User": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: POS Settings": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Party Account": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Payment Entry": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Payment Entry Deduction": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Payment Entry Reference": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Payment Gateway Account": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Payment Order": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Payment Order Reference": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Payment Reconciliation": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Payment Reconciliation Invoice": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Payment Reconciliation Payment": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Payment Request": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Payment Schedule": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Payment Term": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Payment Terms Template": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Payment Terms Template Detail": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Payroll Entry": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Period Closing Voucher": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Price List": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Pricing Rule": {
+        "Accounts": "དངུལ་རྩིས།",
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Purchase Invoice": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Purchase Invoice Advance": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Purchase Invoice Item": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Purchase Order": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Purchase Order Item": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Purchase Order Item Supplied": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Purchase Receipt Item Supplied": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Purchase Taxes and Charges": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Purchase Taxes and Charges Template": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Request for Quotation": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Request for Quotation Item": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Request for Quotation Supplier": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Salary Component": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Salary Component Account": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Sales Invoice": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Sales Invoice Advance": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Sales Invoice Item": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Sales Invoice Payment": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Sales Invoice Timesheet": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Sales Taxes and Charges": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Sales Taxes and Charges Template": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Share Balance": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Share Transfer": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Share Type": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Shareholder": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Shipping Rule": {
+        "Accounts": "དངུལ་རྩིས།",
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Shipping Rule Condition": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Shipping Rule Country": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Subscription": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Subscription Invoice": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Subscription Plan": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Subscription Plan Detail": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Subscription Settings": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Supplier": {
+        "Accounts": "དངུལ་རྩིས།",
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Supplier Group": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Supplier Quotation": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Supplier Quotation Item": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Supplier Scorecard": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Supplier Scorecard Criteria": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Supplier Scorecard Period": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Supplier Scorecard Scoring Criteria": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Supplier Scorecard Scoring Standing": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Supplier Scorecard Scoring Variable": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Supplier Scorecard Standing": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Supplier Scorecard Variable": {
+        "Buying": "ཉོ་བ།"
+    },
+    "DocType: Tax Category": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Tax Rule": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Tax Withholding Account": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Tax Withholding Category": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "DocType: Tax Withholding Rate": {
+        "Accounts": "དངུལ་རྩིས།"
+    },
+    "apps/erpnext/erpnext/config/desktop.py": {
+        "Buying": "ཉོ་བ།"
+    },
+    "apps/erpnext/erpnext/config/help.py": {
+        "Buying": "ཉོ་བ།"
+    },
+    "apps/erpnext/erpnext/config/settings.py": {
+        "Buying": "ཉོ་བ།"
+    },
+    "apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py": {
+        "Accounts": "དངུལ་རྩིས།"
+    }
+}

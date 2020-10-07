@@ -1,0 +1,57 @@
+<div class="web-list-item transaction-list-item">
+	<div class="row py-4" id="{{ doc.name }}">
+		<div class="col-sm-6" style='margin-top: -3px;'>
+			{% set indicator = "red" if doc.status=="Cancelled" else "darkgrey" if doc.ends_on < frappe.utils.now_datetime() else "blue" if doc.status=="Confirmed" %}
+			<span class="indicator small {{ indicator }}">
+			{{ doc.item_name }}</span>
+			<div class="small text-muted status-field">
+				{{ doc.status }}
+			</div>
+			<div class="small text-muted transaction-time"
+				title="{{ frappe.utils.format_datetime(doc.starts_on, "medium") }}">
+				{{ frappe.utils.global_date_format(doc.starts_on) }}
+			</div>
+		</div>
+		<div class="col-sm-3 text-muted">
+			{{  frappe.utils.get_time(doc.starts_on).strftime("%H:%M") }}-{{  frappe.utils.get_time(doc.ends_on).strftime("%H:%M") }}
+		</div>
+		<div class="col-3">
+			{% if doc.status != "Cancelled" and doc.starts_on > frappe.utils.now_datetime() and can_cancel %}<button class="btn btn-default cancel-booking">{{ _("Cancel") }}</button>{% endif %}
+		</div>
+	</div>
+</div>
+
+<script>
+frappe.ready(function() {
+	const cancel_appointment = () => {
+		frappe.call({
+			method: "erpnext.stock.doctype.item_booking.item_booking.cancel_appointment",
+			args: {
+				id: "{{ doc.name }}"
+			}
+		}).then(r => {
+			$(".website-list #{{ doc.name }} .cancel-confirmation").hide()
+			const classes = ['darkgrey', 'blue', 'red']
+			classes.forEach(value => {
+				$(".website-list #{{ doc.name }} .indicator").removeClass(value)
+			})
+			$(".website-list #{{ doc.name }} .indicator").addClass('red')
+			$(".website-list #{{ doc.name }} .status-field").text(__("Cancelled"))
+		})
+	}
+
+	$(".website-list #{{ doc.name }} .cancel-booking").on("click", function(e) {
+		e.preventDefault();
+		$(".website-list #{{ doc.name }} .cancel-booking").addClass("btn-primary")
+		$(".website-list #{{ doc.name }} .cancel-booking").addClass("cancel-confirmation")
+		$(".website-list #{{ doc.name }} .cancel-booking").removeClass("btn-default")
+		$(".website-list #{{ doc.name }} .cancel-booking").text(__("Confirm cancellation ?"))
+		$(".website-list #{{ doc.name }} .cancel-booking").removeClass("cancel-booking")
+
+		$(".website-list #{{ doc.name }} .cancel-confirmation").on("click", function(e) {
+			e.preventDefault();
+			cancel_appointment();
+		});
+	});
+});
+</script>

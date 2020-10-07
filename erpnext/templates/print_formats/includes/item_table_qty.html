@@ -1,0 +1,6 @@
+<div class="pull-left">{{ doc.get_formatted("qty", doc) }}</div>
+{% if (doc.uom and not doc.is_print_hide("uom")) %}
+	<small class="pull-right">{{ _(doc.uom) }}</small>
+{% elif (doc.stock_uom and not doc.is_print_hide("stock_uom")) %}
+	<small class="pull-right">{{ _(doc.stock_uom) }}</small>
+{%- endif %}

@@ -1,0 +1,18 @@
+[{
+  "account_name": "Clients EUR",
+  "parent_account": "Comptes débiteurs",
+  "account_type": "Débiteur",
+  "account_currency": "EUR"
+},
+{
+  "account_name": "Fournisseurs EUR",
+  "parent_account": "Comptes créditeurs",
+  "account_type": "Créditeur",
+  "account_currency": "EUR"
+},
+{
+  "account_name": "Paypal",
+  "parent_account": "Comptes Bancaires",
+  "account_type": "Banque",
+  "account_currency": "EUR"
+}]

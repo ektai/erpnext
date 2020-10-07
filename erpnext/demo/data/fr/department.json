@@ -1,0 +1,30 @@
+[
+	{
+		"doctype": "Department", 
+		"department_name": "Informatique"
+	},
+	{
+		"doctype": "Department",
+		"department_name": "Physique"
+	},
+	{
+		"doctype": "Department",
+		"department_name": "Chimie"
+	},
+	{
+		"doctype": "Department",
+		"department_name": "Biologie"
+	},
+	{
+		"doctype": "Department",
+		"department_name": "Ventes"
+	},
+	{
+		"doctype": "Department",
+		"department_name": "Anglais"
+	},
+	{
+		"doctype": "Department",
+		"department_name": "Etudes de gestion"
+	}
+]

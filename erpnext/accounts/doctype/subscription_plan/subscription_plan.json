@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:plan_name",
+ "creation": "2018-02-24 11:31:23.066506",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "plan_name",
+  "subscription_plans_template"
+ ],
+ "fields": [
+  {
+   "fieldname": "plan_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Plan Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "subscription_plans_template",
+   "fieldtype": "Table",
+   "label": "Subscription Plans Template",
+   "options": "Subscription Plan Detail"
+  }
+ ],
+ "links": [],
+ "modified": "2020-02-12 19:28:51.079944",
+ "modified_by": "Administrator",
+ "module": "Accounts",
+ "name": "Subscription Plan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "plan_name",
+ "track_changes": 1
+}

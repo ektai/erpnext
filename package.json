@@ -1,0 +1,24 @@
+{
+  "name": "erpnext",
+  "description": "Ektai ERP System",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ektai/dokos.git"
+  },
+  "homepage": "https://ektai.io",
+  "author": "Dokos SAS",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://gitlab.com/ektai/dokos/issues"
+  },
+  "devDependencies": {
+    "snyk": "^1.290.1"
+  },
+  "dependencies": {
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
+}

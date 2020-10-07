@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "autoname": "field:bank_name",
+ "creation": "2018-04-07 16:59:59.496668",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bank_name",
+  "bank_logo",
+  "data_import_configuration_section",
+  "bank_transaction_mapping",
+  "section_break_4",
+  "plaid_access_token"
+ ],
+ "fields": [
+  {
+   "fieldname": "bank_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bank Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "data_import_configuration_section",
+   "fieldtype": "Section Break",
+   "label": "Data Import Configuration"
+  },
+  {
+   "fieldname": "bank_transaction_mapping",
+   "fieldtype": "Table",
+   "label": "Bank Transaction Mapping",
+   "options": "Bank Transaction Mapping"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "plaid_access_token",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Plaid Access Token",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "bank_logo",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Bank Logo"
+  }
+ ],
+ "image_field": "bank_logo",
+ "links": [],
+ "modified": "2019-12-06 11:44:53.366219",
+ "modified_by": "Administrator",
+ "module": "Accounts",
+ "name": "Bank",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

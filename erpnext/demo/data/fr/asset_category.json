@@ -1,0 +1,38 @@
+[
+	{
+		"asset_category_name": "Meubles",
+		"depreciation_method": "Straight Line",
+		"total_number_of_depreciations": 5,
+		"frequency_of_depreciation": 12, 
+		"accounts": [{
+			"company_name": "Wind Power",
+			"fixed_asset_account": "Meubles et Accessoires - WP",
+			"accumulated_depreciation_account": "Amortissement Cumulé - WP",
+			"depreciation_expense_account": "Amortissement - WP"
+		}]
+	},
+	{
+		"asset_category_name": "Equipements Électroniques",
+		"depreciation_method": "Double Declining Balance",
+		"total_number_of_depreciations": 10,
+		"frequency_of_depreciation": 6, 
+		"accounts": [{
+			"company_name": "Wind Power",
+			"fixed_asset_account": "Equipements Électroniques - WP",
+			"accumulated_depreciation_account": "Amortissement Cumulé - WP",
+			"depreciation_expense_account": "Amortissement - WP"
+		}]
+	},
+	{
+		"asset_category_name": "Logiciels",
+		"depreciation_method": "Straight Line",
+		"total_number_of_depreciations": 10,
+		"frequency_of_depreciation": 12, 
+		"accounts": [{
+			"company_name": "Wind Power",
+			"fixed_asset_account": "Logiciels - WP",
+			"accumulated_depreciation_account": "Amortissement Cumulé - WP",
+			"depreciation_expense_account": "Amortissement - WP"
+		}]
+	}
+]

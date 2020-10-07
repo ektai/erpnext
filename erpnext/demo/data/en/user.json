@@ -1,0 +1,112 @@
+[
+ {
+  "email": "test_demo@erpnext.com",
+  "first_name": "Test",
+  "last_name": "User"
+ },
+ {
+  "email": "DianaPrince@ektai.mail",
+  "first_name": "Diana",
+  "last_name": "Prince"
+ },
+ {
+  "email": "ZatannaZatara@ektai.mail",
+  "first_name": "Zatanna",
+  "last_name": "Zatara"
+ },
+ {
+  "email": "HollyGranger@ektai.mail",
+  "first_name": "Holly",
+  "last_name": "Granger"
+ },
+ {
+  "email": "NeptuniaAquaria@ektai.mail",
+  "first_name": "Neptunia",
+  "last_name": "Aquaria"
+ },
+ {
+  "email": "ArthurCurry@ektai.mail",
+  "first_name": "Arthur",
+  "last_name": "Curry"
+ },
+ {
+  "email": "ThaliaAlGhul@ektai.mail",
+  "first_name": "Thalia",
+  "last_name": "Al Ghul"
+ },
+ {
+  "email": "MaxwellLord@ektai.mail",
+  "first_name": "Maxwell",
+  "last_name": "Lord"
+ },
+ {
+  "email": "GraceChoi@ektai.mail",
+  "first_name": "Grace",
+  "last_name": "Choi"
+ },
+ {
+  "email": "VandalSavage@ektai.mail",
+  "first_name": "Vandal",
+  "last_name": "Savage"
+ },
+ {
+  "email": "CaitlinSnow@ektai.mail",
+  "first_name": "Caitlin",
+  "last_name": "Snow"
+ },
+ {
+  "email": "RipHunter@ektai.mail",
+  "first_name": "Rip",
+  "last_name": "Hunter"
+ },
+ {
+  "email": "NicholasFury@ektai.mail",
+  "first_name": "Nicholas",
+  "last_name": "Fury"
+ },
+ {
+  "email": "PeterParker@ektai.mail",
+  "first_name": "Peter",
+  "last_name": "Parker"
+ },
+ {
+  "email": "JohnConstantine@ektai.mail",
+  "first_name": "John",
+  "last_name": "Constantine"
+ },
+ {
+  "email": "HalJordan@ektai.mail",
+  "first_name": "Hal",
+  "last_name": "Jordan"
+ },
+ {
+  "email": "VictorStone@ektai.mail",
+  "first_name": "Victor",
+  "last_name": "Stone"
+ },
+ {
+  "email": "BruceWayne@ektai.mail",
+  "first_name": "Bruce",
+  "last_name": "Wayne"
+ },
+ {
+  "email": "ClarkKent@ektai.mail",
+  "first_name": "Clark",
+  "last_name": "Kent"
+ },
+ {
+  "email": "BarryAllen@ektai.mail",
+  "first_name": "Barry",
+  "last_name": "Allen"
+ },
+ {
+  "email": "KaraZorEl@ektai.mail",
+  "first_name": "Kara",
+  "last_name": "Zor El"
+ },
+ {
+  "email": "demo@ektai.io",
+  "first_name": "Demo",
+  "last_name": "User"
+ }
+]

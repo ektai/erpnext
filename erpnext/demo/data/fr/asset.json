@@ -1,0 +1,58 @@
+[
+	{
+		"asset_name": "Macbook Pro - 1",
+		"item_code": "Ordinateur",
+		"gross_purchase_amount": 100000,
+		"asset_owner": "Company",
+		"available_for_use_date": "2019-01-02",
+		"location": "Siège"
+	},
+	{
+		"asset_name": "Macbook Air - 1",
+		"item_code": "Ordinateur",
+		"gross_purchase_amount": 60000,
+		"asset_owner": "Company",
+		"available_for_use_date": "2019-10-02",
+		"location": "Siège"
+	},
+	{
+		"asset_name": "Table de conférence",
+		"item_code": "Table",
+		"gross_purchase_amount": 30000,
+		"asset_owner": "Company",
+		"available_for_use_date": "2020-10-02",
+		"location": "Siège"
+	},
+	{
+		"asset_name": "Table pour déjeuner",
+		"item_code": "Table",
+		"gross_purchase_amount": 20000,
+		"asset_owner": "Company",
+		"available_for_use_date": "2020-06-02",
+		"location": "Siège"
+	},
+	{
+		"asset_name": "Dokos",
+		"item_code": "ERP",
+		"gross_purchase_amount": 100000,
+		"asset_owner": "Company",
+		"available_for_use_date": "2020-09-02",
+		"location": "Siège"
+	},
+	{
+		"asset_name": "Chaise 1",
+		"item_code": "Chaise",
+		"gross_purchase_amount": 10000,
+		"asset_owner": "Company",
+		"available_for_use_date": "2020-07-02",
+		"location": "Siège"
+	},
+	{
+		"asset_name": "Chaise 2",
+		"item_code": "Chaise",
+		"gross_purchase_amount": 10000,
+		"asset_owner": "Company",
+		"available_for_use_date": "2020-07-02",
+		"location": "Siège"
+	}
+]

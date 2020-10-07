@@ -1,0 +1,19 @@
+Accounts
+CRM
+Buying
+Projects
+Selling
+Setup
+HR
+Manufacturing
+Stock
+Support
+Utilities
+Shopping Cart
+Assets
+Portal
+Maintenance
+Regional
+ERPNext Integrations
+Quality Management
+Communication

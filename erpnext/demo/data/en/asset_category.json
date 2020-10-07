@@ -1,0 +1,38 @@
+[
+	{
+		"asset_category_name": "Furnitures",
+		"depreciation_method": "Straight Line",
+		"total_number_of_depreciations": 5,
+		"frequency_of_depreciation": 12, 
+		"accounts": [{
+			"company_name": "Wind Power",
+			"fixed_asset_account": "Furnitures and Fixtures - WP",
+			"accumulated_depreciation_account": "Accumulated Depreciation - WP",
+			"depreciation_expense_account": "Depreciation - WP"
+		}]
+	},
+	{
+		"asset_category_name": "Electronic Equipments",
+		"depreciation_method": "Double Declining Balance",
+		"total_number_of_depreciations": 10,
+		"frequency_of_depreciation": 6, 
+		"accounts": [{
+			"company_name": "Wind Power",
+			"fixed_asset_account": "Electronic Equipments - WP",
+			"accumulated_depreciation_account": "Accumulated Depreciation - WP",
+			"depreciation_expense_account": "Depreciation - WP"
+		}]
+	},
+	{
+		"asset_category_name": "Softwares",
+		"depreciation_method": "Straight Line",
+		"total_number_of_depreciations": 10,
+		"frequency_of_depreciation": 12, 
+		"accounts": [{
+			"company_name": "Wind Power",
+			"fixed_asset_account": "Softwares - WP",
+			"accumulated_depreciation_account": "Accumulated Depreciation - WP",
+			"depreciation_expense_account": "Depreciation - WP"
+		}]
+	}
+]

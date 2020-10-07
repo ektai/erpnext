@@ -1,0 +1,111 @@
+{
+    "DocType: Accounts Settings": {
+        "Unlink Payment on Cancellation of Invoice": "Unlink Payment on Cancelation of Invoice"
+    },
+    "DocType: Bank Reconciliation": {
+        "Select account head of the bank where cheque was deposited.": "Select account head of the bank where check was deposited."
+    },
+    "DocType: Bank Reconciliation Detail": {
+        "Cheque Date": "Check Date",
+        "Cheque Number": "Check Number"
+    },
+    "DocType: Cheque Print Template": {
+        "Cheque Height": "Check Height",
+        "Cheque Print Template": "Check Print Template",
+        "Cheque Size": "Check Size",
+        "Cheque Width": "Check Width",
+        "Scanned Cheque": "Scanned Check"
+    },
+    "DocType: Employee": {
+        "Cheque": "Check"
+    },
+    "DocType: Payment Entry": {
+        "Cheque/Reference Date": "Check/Reference Date",
+        "Cheque/Reference No": "Check/Reference No"
+    },
+    "DocType: Serial No": {
+        "Is Cancelled": "Is Canceled"
+    },
+    "DocType: Stock Ledger Entry": {
+        "Is Cancelled": "Is Canceled"
+    },
+    "apps/erpnext/erpnext/accounts/doctype/bank_reconciliation/bank_reconciliation.py": {
+        "Row #{0}: Clearance date {1} cannot be before Cheque Date {2}": "Row #{0}: Clearance date {1} cannot be before Check Date {2}"
+    },
+    "apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py": {
+        "'Entries' cannot be empty": "'Entries' can not be empty"
+    },
+    "apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py": {
+        "Timesheet {0} is already completed or cancelled": "Timesheet {0} is already completed or canceled"
+    },
+    "apps/erpnext/erpnext/accounts/report/accounts_receivable/accounts_receivable.html": {
+        "Cheques Required": "Checks Required"
+    },
+    "apps/erpnext/erpnext/accounts/report/bank_clearance_summary/bank_clearance_summary.py": {
+        "Cheque/Reference No": "Check/Reference No"
+    },
+    "apps/erpnext/erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.py": {
+        "Cheques and Deposits incorrectly cleared": "Checks and Deposits incorrectly cleared",
+        "Outstanding Cheques and Deposits to clear": "Outstanding Checks and Deposits to clear"
+    },
+    "apps/erpnext/erpnext/assets/doctype/asset/asset.py": {
+        "Asset cannot be cancelled, as it is already {0}": "Asset cannot be canceled, as it is already {0}"
+    },
+    "apps/erpnext/erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.py": {
+        "Maintenance Status has to be Cancelled or Completed to Submit": "Maintenance Status has to be Canceled or Completed to Submit"
+    },
+    "apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.py": {
+        "Material Request {0} is cancelled or stopped": "Material Request {0} is canceled or stopped"
+    },
+    "apps/erpnext/erpnext/controllers/buying_controller.py": {
+        "{0} {1} is cancelled or closed": "{0} {1} is canceled or closed"
+    },
+    "apps/erpnext/erpnext/controllers/selling_controller.py": {
+        "{0} {1} is cancelled or closed": "{0} {1} is canceled or closed"
+    },
+    "apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py": {
+        "Payment Cancelled. Please check your GoCardless Account for more details": "Payment Canceled. Please check your GoCardless Account for more details"
+    },
+    "apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py": {
+        "Leave cannot be applied/cancelled before {0}, as leave balance has already been carry-forwarded in the future leave allocation record {1}": "Leave cannot be applied/canceled before {0}, as leave balance has already been carry-forwarded in the future leave allocation record {1}"
+    },
+    "apps/erpnext/erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.py": {
+        "Cancel Material Visits {0} before cancelling this Maintenance Visit": "Cancel Material Visits {0} before canceling this Maintenance Visit"
+    },
+    "apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py": {
+        "Stopped Work Order cannot be cancelled, Unstop it first to cancel": "Stopped Work Order cannot be canceled, Unstop it first to cancel"
+    },
+    "apps/erpnext/erpnext/selling/doctype/sales_order/sales_order.py": {
+        "Closed order cannot be cancelled. Unclose to cancel.": "Closed order cannot be canceled. Unclose to cancel.",
+        "Delivery Notes {0} must be cancelled before cancelling this Sales Order": "Delivery Notes {0} must be canceled before cancelling this Sales Order",
+        "Maintenance Schedule {0} must be cancelled before cancelling this Sales Order": "Maintenance Schedule {0} must be canceled before cancelling this Sales Order",
+        "Maintenance Visit {0} must be cancelled before cancelling this Sales Order": "Maintenance Visit {0} must be canceled before cancelling this Sales Order",
+        "Quotation {0} is cancelled": "Quotation {0} is canceled",
+        "Sales Invoice {0} must be cancelled before cancelling this Sales Order": "Sales Invoice {0} must be canceled before cancelling this Sales Order",
+        "Work Order {0} must be cancelled before cancelling this Sales Order": "Work Order {0} must be canceled before cancelling this Sales Order"
+    },
+    "apps/erpnext/erpnext/setup/doctype/company/company.py": {
+        "Cannot change company's default currency, because there are existing transactions. Transactions must be cancelled to change the default currency.": "Cannot change company's default currency, because there are existing transactions. Transactions must be canceled to change the default currency."
+    },
+    "apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py": {
+        "Cheque": "Check",
+        "Colour": "Color",
+        "Wire Transfer": "Wire Transfer"
+    },
+    "apps/erpnext/erpnext/stock/doctype/delivery_note/delivery_note.py": {
+        "Packing Slip(s) cancelled": "Packing Slip(s) canceled"
+    },
+    "apps/erpnext/erpnext/stock/doctype/item/item.py": {
+        "Item {0} is cancelled": "Item {0} is canceled"
+    },
+    "apps/erpnext/erpnext/stock/doctype/material_request/material_request.py": {
+        "{0} {1} is cancelled or stopped": "{0} {1} is canceled or stopped",
+        "{0} {1} is cancelled so the action cannot be completed": "{0} {1} is canceled so the action cannot be completed"
+    },
+    "apps/erpnext/erpnext/stock/stock_ledger.py": {
+        "Valuation rate not found for the Item {0}, which is required to do accounting entries for {1} {2}. If the item is transacting as a zero valuation rate item in the {1}, please mention that in the {1} Item table. Otherwise, please create an incoming stock transaction for the item or mention valuation rate in the Item record, and then try submiting/cancelling this entry": "Valuation rate not found for the Item {0}, which is required to do accounting entries for {1} {2}. If the item is transacting as a zero valuation rate item in the {1}, please mention that in the {1} Item table. Otherwise, please create an incoming stock transaction for the item or mention valuation rate in the Item record, and then try submitting/canceling this entry"
+    },
+    "apps/erpnext/erpnext/support/doctype/warranty_claim/warranty_claim.py": {
+        "Cancel Material Visit {0} before cancelling this Warranty Claim": "Cancel Material Visit {0} before canceling this Warranty Claim"
+    }
+}
